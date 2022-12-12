@@ -1,0 +1,29 @@
+.main-bg{
+    background-color: #24353F;
+}
+.sec-color{
+    color: #17A2B8;
+}
+.shadow-box{
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+.signUp p a{
+    text-decoration: none;
+    color: #fff;
+}
+.signUp p a:hover{
+    text-decoration:underline;
+    color: #fff;
+}
+.submit-btn button{
+    background-color: transparent;
+    border-color: #17A2B8;
+    transition: 0.3s;
+}
+.submit-btn button:hover{
+    background-color: #17A2B8;
+    color: #fff;
+}
+input{
+    color: white !important;
+}

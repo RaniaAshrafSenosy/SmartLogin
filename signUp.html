@@ -1,0 +1,81 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body class="main-bg ">
+    <section>
+      <div class="container  my-5 p-5 ">
+        <div class="row main-bg  text-center p-5  m-auto  shadow-box w-75">
+          <div class="col-12 p-2">
+            <div class="title sec-color">
+              <h2>Smart Login System</h2>
+            </div>
+            <div class="col-12  p-2">
+                <div class="name">
+                  <input  id="nameInput" type="text" placeholder="Enter your name" class="w-75 m-auto rounded-3 p-1 bg-transparent border-light border-1 form-control" />
+                </div>
+              </div>
+              <div class="col-12  ">
+                <div >
+                  <p id="name-msg" class="text-danger d-none">include at least 3 letters starting with capital, second name is optional</p>
+                </div>
+              </div>
+            <div class="col-12  p-2">
+              <div class="email">
+                <input id="emailInput" type="email" placeholder="Enter your email" class="w-75  m-auto p-1 bg-transparent border-light border-1 form-control" />
+              </div>
+            </div>
+            <div class="col-12  ">
+              <div >
+                <p id="email-msg" class="text-danger d-none">name@example.com</p>
+              </div>
+            </div>
+            <div class="col-12  p-2">
+              <div class="password">
+                <input id="passInput" type="password" placeholder="Enter your password" class="w-75 m-auto rounded-3 p-1 bg-transparent border-light border-1 form-control"  />
+              </div>
+            </div>
+            <div class="col-12  ">
+              <div >
+                <p id="pass-msg" class="text-danger d-none">you must strenth your password, from 5 to 15 characters</p>
+              </div>
+            </div>
+            <div class="col-12  ">
+              <div class="">
+                <p id="error-msg" class="text-danger d-none">this account is exist ! Try another one.<br>
+                  signUp failed ! Try again</p>
+              </div>
+            </div>
+            <div class="col-12  ">
+              <div class="">
+                <p id="success-msg" class="text-success d-none">SignUp Successed</p>
+              </div>
+            </div>
+            <div class="col-12  p-2 mt-4">
+              <div  class="submit-btn  ">
+                <button id="signBtn" disabled class="sec-color w-75 p-1 rounded-3 m-auto form-control ">Sign Up</button>
+              </div>
+            </div>
+            <div class="col-12  p-2">
+              <div class="signUp text-white">
+                <p>
+                    you have an accoount? 
+                  <a href="index.html">Sign In</a>
+                </p>
+              </div>
+            </div>
+            <div class="col-12  p-2">
+              <div class="signUp text-white">
+              <a href="index.html" id="loginBtn-direct" class="btn btn-outline-success d-none"> Sign In</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
